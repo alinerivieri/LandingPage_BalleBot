@@ -144,12 +144,12 @@ body {
 
   .cabecalho-menu {
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
     padding-left: 20px;
     justify-content: space-around;
   }
 
-  .cabecalho-imagem {
+   .cabecalho-imagem {
     padding-left: 20px;
   }
 
@@ -170,4 +170,18 @@ body {
     height: 330px;
   }
  
+}
+
+@media(max-width: 425px){
+
+  .cabecalho-menu {
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-left: 15px;
+    justify-content: space-around;
+  }
+
+  .cabecalho-menu-item {
+    font-size: 12px;
+  }
 }
